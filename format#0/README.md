@@ -16,7 +16,7 @@ Binary Exploitation
 When we see printf statment, it is usually a format string attack. Read more at [here](https://www.owasp.org/index.php/Format_string_attack).
 
 In short, input %s to perform string conversion
-%s%s%s%s%s == %5$s as a shortcut. 
+`%s%s%s%s%s` == `%5$s` as a shortcut. 
 
 We just have to print enough value on the stack until we can get the flag. 
 
